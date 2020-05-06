@@ -1,0 +1,83 @@
+Machine Learning With Python
+
+Python libraries for Machine Learning
+
+numpy - Scientific computing
+pandas - data frames
+matplotlib - 2D plotting
+scikit-learn - 
+			- Design to work with NumPy, SciPy and Pandas
+			- Toolset for training and evaluation tasks
+				- Data Splitting
+				- Pre-Processing
+				- Performance-Evoluation
+				- Feature Selection
+				- Model Training
+				- Model Tuning
+			- Common Interface across algorithms
+				
+
+Machine learning works :
+	1 - Asking the right question
+	2 - Preparing Data
+	3 - Selecting the Algorithm
+	4 - Training the model
+	5 - Testing the model
+	
+1 - Asking the right question : 
+	- Get Data
+	- Remove Corelated data
+	
+2 - Preparing a Data : 
+	- convert data as per needed
+
+3 - Selecting the Algorithm : (Lots of Algorithm available, we need to select one ,and train our data)
+	1-Algo Naive Bayes (Based on likelihood and probability, every feature has the same weight, Requires smaller amount of data)
+	2-Algo Logistic Regression(confusing Name, Binary result, RelationShip between features are weighted)
+	3-Algo Decision Tree (Binary tree, Node contains decision, Requires enough data to determine node and split, 
+		But best part it has a tool to picture of trees, so we can see how deceision work)
+		
+	Missing Data : 
+			Common problem
+			Options to Solve:
+				1 - Ignore
+				2 - Drop Observations(rows)
+				3 - Replace values(Impute)
+					1 - Replace with Mean, Median
+					2 - Replace with expert knowledge derived value
+
+4 - Training the model :
+
+5 - Testing The model : 
+			
+
+Performance Improvement Options:
+						1 - Adjust Current Algorithm
+						2 - Get more data or improve data
+						3 - Improve Training
+						4 - Switch Algorithm
+							
+
+Algorithm Random Forest : 
+			Ensemble Algorithm
+			Fits multiple trees with subsets of data
+			Average tree results to improve performance and control overfitting
+
+Algorithm Logistic Regression :
+
+Algorithm CV Variants : 
+	Algorithm + Cross Validation = AlgorithmCV
+
+Fixing Overfitting : 
+	Regularization Hyperparameter
+	cross vaidation
+	Bias - variance trade off
+	
+Unbalanced Classes : 
+
+	
+
+
+
+				
+				
